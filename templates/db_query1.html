@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Q1</title>
+    </head>
+    <body>
+        <h3>List of Customer (Sorted by Name Descending Order)</h3>
+
+        {% if error_message %}
+            <p style="color: red;">{{ error_message }}</p>
+        {% else %}
+            {% if customers %}
+                <ul>
+                    {% for c in customers %}
+                        <li>{{ c.name }}</li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>No customers available in the database.</p>
+            {% endif %}
+        {% endif %}
+    </body>
+</html>

@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Detail</title>
+</head>
+<body>
+    <h1>Barber Details Page</h1>
+    <p>Name: {{ barber.name }}</p>
+    <p>Number Customers: {{ barber.num_customers }}</p>
+    <p>Barber Shop: {{ barber.b_shop }}</p>
+
+    <p><a href="{% url 'b_edit' barber.pk %}">+ Edit Barber Record</a></p>
+</body>
+</html>

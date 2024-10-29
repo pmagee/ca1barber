@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>List</title>
+</head>
+<body>
+    <h2>Customer & Barber List</h2>
+    {% for c in all_c_list %}
+        <h3>Customer Name: {{ c.name }}</h3>
+        <ul>Barber Name:{{ c.barber.name }}</ul>
+    {% endfor %}
+</body>
+</html>

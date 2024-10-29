@@ -1,0 +1,119 @@
+[
+    {
+        "model": "barber_app.barbershop",
+        "pk": 1,
+        "fields": {
+            "name": "Urban Cuts",
+            "location": "1 Main St",
+            "date_opened": "2010-06-15"
+        }
+    },
+    {
+        "model": "barber_app.barbershop",
+        "pk": 2,
+        "fields": {
+            "name": "Elite Barbers",
+            "location": "4 Maple Ave",
+            "date_opened": "2015-09-10"
+        }
+    },
+    {
+        "model": "barber_app.barbershop",
+        "pk": 3,
+        "fields": {
+            "name": "Fresh Fades",
+            "location": "7 Oak St",
+            "date_opened": "2018-03-22"
+        }
+    },
+    {
+        "model": "barber_app.barber",
+        "pk": 1,
+        "fields": {
+            "name": "James Miller",
+            "num_customers": 150,
+            "b_shop": 1
+        }
+    },
+    {
+        "model": "barber_app.barber",
+        "pk": 2,
+        "fields": {
+            "name": "Sarah Johnson",
+            "num_customers": 200,
+            "b_shop": 2
+        }
+    },
+    {
+        "model": "barber_app.barber",
+        "pk": 3,
+        "fields": {
+            "name": "Alex Gonzalez",
+            "num_customers": 120,
+            "b_shop": 1
+        }
+    },
+    {
+        "model": "barber_app.barber",
+        "pk": 4,
+        "fields": {
+            "name": "Michael Brown",
+            "num_customers": 180,
+            "b_shop": 3
+        }
+    },
+    {
+        "model": "barber_app.customer",
+        "pk": 1,
+        "fields": {
+            "name": "David Clark",
+            "date_of_birth": "1990-05-12",
+            "barber": 1
+        }
+    },
+    {
+        "model": "barber_app.customer",
+        "pk": 2,
+        "fields": {
+            "name": "Lisa White",
+            "date_of_birth": "1985-11-03",
+            "barber": 2
+        }
+    },
+    {
+        "model": "barber_app.customer",
+        "pk": 3,
+        "fields": {
+            "name": "Mark Evans",
+            "date_of_birth": "1992-01-25",
+            "barber": 3
+        }
+    },
+    {
+        "model": "barber_app.customer",
+        "pk": 4,
+        "fields": {
+            "name": "Emma Green",
+            "date_of_birth": "1978-07-14",
+            "barber": 4
+        }
+    },
+    {
+        "model": "barber_app.customer",
+        "pk": 5,
+        "fields": {
+            "name": "Joshua Taylor",
+            "date_of_birth": "2000-03-30",
+            "barber": 1
+        }
+    },
+    {
+        "model": "barber_app.customer",
+        "pk": 6,
+        "fields": {
+            "name": "Samantha Black",
+            "date_of_birth": "1995-09-17",
+            "barber": 2
+        }
+    }
+]

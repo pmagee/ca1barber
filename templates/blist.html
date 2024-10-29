@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>List</title>
+</head>
+<body>
+    <h1>Barber List Page</h1>
+    {% for b in all_b_list %}
+    <h3><a href="{% url 'b_detail' b.pk %}">{{ b.name }}</a></h3>
+    {% endfor %}
+
+    <h2><a href="{% url 'b_new' %}">+New Barber</a></h2>
+</body>
+</html>
